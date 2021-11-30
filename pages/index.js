@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import About from '../components/about/About'
+import Showcase from '../components/home/Home'
 import Header from '../components/header/Header'
+import About from '../components/about/About'
 
 export default function Home() {
   return (
-    <div className="bg-body h-[1000vh]  w-screen mx-auto items-center">
+    <div className="bg-body h-[300vh]  w-screen mx-auto items-center">
 
       <Head>
         <title>HABEEB AHMADU | WEB DEVELOPER</title>
@@ -14,7 +15,10 @@ export default function Home() {
 
       <Header/>
 
+      <Showcase/>
+
       <About/>
+
     </div>
   )
 }
