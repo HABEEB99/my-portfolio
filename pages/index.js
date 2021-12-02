@@ -3,6 +3,7 @@ import Showcase from '../components/home/Home'
 import Header from '../components/header/Header'
 import About from '../components/about/About'
 import Projects from '../components/projects/Projects'
+import Services from '../components/services/Services'
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
       <About/>
 
       <Projects/>
+
+      <Services/>
 
     </div>
   )
