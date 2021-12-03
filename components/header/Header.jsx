@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <header className="h-12 mx-auto w-screen sticky top-0 z-[1000]">
-            <div className=" sm:px-6 lg:px-12 px-6 xl:px-36 flex items-center justify-between pt-4">
+            <div className=" sm:px-6 md:px-16 mx-auto lg:px-12 px-6 xl:px-36 flex items-center justify-between pt-4">
                  <Link href="/" passHref className="cursor-pointer">
                      <h3 className="text-cta font-sans font-bold sm:text-base lg:text-xl cursor-pointer">
                         Habeeb Ahmadu

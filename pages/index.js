@@ -7,7 +7,7 @@ import Services from '../components/services/Services'
 
 export default function Home() {
   return (
-    <div className="bg-body h-[400vh]  w-screen mx-auto items-center">
+    <div className="bg-body h-[900vh]  w-screen mx-auto items-center">
 
       <Head>
         <title>HABEEB AHMADU | WEB DEVELOPER</title>
