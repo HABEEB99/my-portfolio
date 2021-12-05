@@ -16,7 +16,7 @@ const Showcase = () => {
                     
                     <Link href="/projects" passHref className="">
                         
-                        <button className="p-8 mr-36 hover:bg-color hover:text-cta font-bold text-3xl mt-10 flex items-center justify-center w-56 bg-cta h-12 text-white">
+                        <button className="p-8 mr-[9.7rem] rounded-lg hover:bg-color hover:text-cta font-bold text-3xl mt-10 flex items-center justify-center w-56 bg-cta h-12 text-white">
                             <AiFillEye className=" shadow-inner"/> My work
                         </button>
 

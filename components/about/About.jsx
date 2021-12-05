@@ -14,7 +14,7 @@ const About = () => {
             
             <div className="container lg:flex lg:flex-col">
 
-                <h1 className="text-4xl text-white font-bold ">About</h1>
+               <h1 className="text-4xl text-white font-bold ">About</h1> 
                 
                 <div className="flex flex-wrap items-center justify-center lg:justify-between mt-8 lg:mt-20">
                     
