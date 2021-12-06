@@ -10,7 +10,7 @@ import { AiFillTwitterCircle, AiFillPhone } from 'react-icons/ai'
 const About = () => {
     return (
 
-        <div className="h-screen w-screen mt-72 lg:mt-0 lg:pt-20 sm:px-6  lg:px-12 px-6 xl:px-36">
+        <div className="h-screen w-screen mt-72 lg:mt-0 lg:pt-20 sm:px-6  lg:px-12 px-6 xl:px-36" id="about">
             
             <div className="container lg:flex lg:flex-col">
 

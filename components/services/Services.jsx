@@ -3,7 +3,7 @@ import Service from './Service'
 
 const Services = () => {
     return (
-        <div className="h-screen w-screen mt-[55rem] sm:mt-[10rem] md:px-16 md:mt-[50rem] lg:mt-0 lg:pt-20 sm:px-6  lg:px-12 px-6 xl:px-36">
+        <div id="services" className="h-screen w-screen mt-[55rem] sm:mt-[10rem] md:px-16 md:mt-[50rem] lg:mt-0 lg:pt-20 sm:px-6  lg:px-12 px-6 xl:px-36">
              
            <h1 className="text-4xl text-white font-bold ">Services</h1>
 

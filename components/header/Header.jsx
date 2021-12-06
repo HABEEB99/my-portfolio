@@ -25,10 +25,10 @@ const Header = () => {
 
                  <nav className="hidden lg:flex items-center ">
                     <NavItem name="Home" path="/" Icon={FaHome} className="active:text-cta"/>
-                    <NavItem name="About" path="/" Icon={FaInfoCircle}/>
-                    <NavItem name="Services" path="/" Icon={FaTools}/>
-                    <NavItem name="Experience" path="/" Icon={MdWork}/>
-                    <Link href="/contacts" passHref>
+                    <NavItem name="About" path="#about" Icon={FaInfoCircle}/>
+                    <NavItem name="Services" path="#services" Icon={FaTools}/>
+                    <NavItem name="Experience" path="#experience" Icon={MdWork}/>
+                    <Link href="#contacts" passHref>
                         <button className="bg-cta transition duration-100 ease-in-out p-2 text-white text-xl w-28 h-12 rounded-sm font-bold hover:bg-white hover:text-cta">Hire Me</button>
                     </Link>
                    
